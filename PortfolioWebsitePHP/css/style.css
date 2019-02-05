@@ -1,0 +1,94 @@
+body {
+  background-color: gray;
+}
+
+@media(min-width:768px) {
+  .container {
+    font-family: Helvetica Neue;
+    background: white;
+    display: flex;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.assignments {
+  margin: 0;
+  border: 20px solid grey;
+  padding: 20px;
+  text-align: center;
+  flex: 1;
+}
+
+.content {
+  border: 20px solid grey;
+  text-align: center;
+  padding: 30px 15px 30px 15px;
+  line-height: 23px;
+  flex: 2;
+}
+
+.form {
+  border: 20px solid grey;
+  padding: 20px;
+  line-height: 23px;
+  text-align: center;
+  flex: 1;
+}
+
+.assignments ul {
+  list-style-type: none;
+  font-weight: bolder;
+  margin: 20px;
+  padding: 0;
+}
+
+.assignments ul li {
+  margin: 10px 0;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: pink;
+}
+
+.profile-pic {
+  padding: 5px;
+  border-radius: 50%;
+  width: 60%;
+}
+
+.form label, input, textarea, span {
+  /* margin-bottom: 20px; */
+  display: inline-block;
+  width: 55%;
+  padding: 10px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.success {
+  color: green;
+  font-size: 14px;
+}
+
+.form h3 {
+  text-align: center;
+}
+
+footer ul li {
+  display: inline;
+  list-style-type: none;
+}
