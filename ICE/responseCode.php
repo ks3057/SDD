@@ -1,4 +1,4 @@
-<?php header("Location: ../classPractice.php", true, 301);?>
+<?php header("Location: ../ICE/intro.php", true, 301);?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

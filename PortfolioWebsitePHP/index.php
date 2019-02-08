@@ -23,13 +23,15 @@ $msg="";
       <h3>Assignments</h3>
       <ul>Homework
         <li><a href="#">Homework 1</a></li>
-        <li><a href="#">Homework 2</a></li>
+        <li><a href="03/login.php">Homework 2</a></li>
         <li><a href="#">Homework 3</a></li>
       </ul>
       <ul>ICEs
-        <li><a href="#">ICE 1</a></li>
-        <li><a href="#">ICE 2</a></li>
-        <li><a href="#">ICE 3</a></li>
+        <li><a href="ICE/intro.php">ICE 1</a></li>
+        <li><a href="ICE/responseCode.php">ICE 2</a></li>
+        <li><a href="ICE/cookies.php">ICE 3</a></li>
+        <li><a href="ICE/session1.php">ICE 4</a></li>
+        <li><a href="oop_starter/inclass.php">ICE 5</a></li>
       </ul>
       <ul>Projects
         <li><a href="#">Project 1</a></li>

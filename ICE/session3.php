@@ -19,7 +19,7 @@ session_start();
 //session teardown
 // 1. unset the session variable
 unset($_SESSION["name"]);
-//or
+//you could use below but its deprecated. no longer works in new versions
 //session_unset();
 
 // 2. remove session cookie

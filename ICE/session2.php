@@ -1,6 +1,11 @@
 <?php
 // session_name("Kirtana session"); //OPTIONAL. Creates a cookie different than PHPSESSID
-session_start();
+//complete list of options: http://php.net/manual/en/session.configuration.php
+$options = [
+  "name" => "KS",
+  "gc_maxlifetime" => 60 * 10
+];
+session_start($options);
 //echo print_r($_POST);
 
 if (isset($_POST["submit"])) {
