@@ -1,8 +1,9 @@
 <?php
 class BusinessMajor extends Person
 {
+    //you cannot overload functions in php, just override
     public function fashion()
     {
-        echo "suit and tie";
+        return "suit and tie";
     }
 }

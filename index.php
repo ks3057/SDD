@@ -24,7 +24,7 @@ $msg="";
       <ul>Homework
         <li><a href="#">Homework 1</a></li>
         <li><a href="03/login.php">Homework 2</a></li>
-        <li><a href="#">Homework 3</a></li>
+        <li><a href="04/">Homework 3</a></li>
       </ul>
       <ul>ICEs
         <li><a href="ICE/intro.php">ICE 1</a></li>

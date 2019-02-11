@@ -5,6 +5,11 @@ class Person
     private $first;
 
     // constructor here...
+    public function __construct($last = "TBD", $first = "TBD")
+    {
+        $this->last = $last;
+        $this->first = $first;
+    }
 
     public function getFirstName()
     {
