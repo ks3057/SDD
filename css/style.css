@@ -52,9 +52,12 @@ body {
   font-weight: normal;
 }
 
-.assignments table {
-  margin: 10px 0;
-  font-weight: normal;
+th, td {
+  padding: 5px;
+  border: 1px solid black;
+  text-align: center;
+  table-layout: fixed;
+  width: 50%;
 }
 
 a {

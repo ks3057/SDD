@@ -26,13 +26,35 @@ $msg="";
         <li><a href="03/login.php">Homework 2</a></li>
         <li><a href="04/">Homework 3</a></li>
       </ul>
-      <ul>ICEs
-        <li><a href="ICE/intro.php">ICE 1</a></li>
-        <li><a href="ICE/responseCode.php">ICE 2</a></li>
-        <li><a href="ICE/cookies.php">ICE 3</a></li>
-        <li><a href="ICE/session1.php">ICE 4</a></li>
-        <li><a href="oop_starter/inclass.php">ICE 5</a></li>
+      <ul>
+        ICEs
       </ul>
+        <table>
+          <tr>
+            <td>
+              <a href="ICE/intro.php">Hello World</a>
+            </td>
+            <td>
+              <a href="ICE/responseCode.php">Response Codes</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="ICE/cookies.php">Cookies</a>
+            </td>
+            <td>
+              <a href="ICE/session1.php">Sessions</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="oop_starter/inclass.php">OOP Static function & Regular Class</a>
+            </td>
+            <td>
+              <a href="ICE/db.php">Prepared Statements and Bound parameters</a>
+            </td>
+          </tr>
+        </table>
       <ul>Projects
         <li><a href="#">Project 1</a></li>
         <li><a href="#">Project 2</a></li>

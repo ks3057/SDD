@@ -1,5 +1,7 @@
 <?php
 
+require_once "hw4_1.php";
+
 class BritishPerson extends Person
 {
     public function __construct($last = "Smith", $first = "Harry")
@@ -7,48 +9,15 @@ class BritishPerson extends Person
         parent::__construct($last, $first);
     }
 
-    public function setFirstName($first)
-    {
-        parent::setFirstName($first);
-    }
-
-    public function setLastName($last)
-    {
-        parent::setLastName($last);
-    }
-
     public function setHeight($height)
     {
+        //conversion from cm to inches
         parent::setHeight($height / 2.54);
     }
 
     public function setWeight($weight)
     {
+        //conversion from kilo to pounds
         parent::setWeight($weight * 2.205);
-    }
-
-    public function getFirstName()
-    {
-        return parent::getFirstName();
-    }
-
-    public function getLastName()
-    {
-        return parent::getLastName();
-    }
-
-    public function getHeight()
-    {
-        return parent::getHeight();
-    }
-
-    public function getWeight()
-    {
-        return parent::getWeight();
-    }
-
-    public function calculate_bmi()
-    {
-        return parent::calculate_bmi();
     }
 }

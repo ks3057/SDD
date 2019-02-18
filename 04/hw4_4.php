@@ -1,10 +1,11 @@
 <?php
 
-require_once "hw4_1.php";
 require_once "hw4_3.php";
 
 $emilia = new BritishPerson("Clarke", "Emilia");
+//height in cm
 $emilia->setHeight(157.48);
+//weight in kilo
 $emilia->setWeight(52);
 
 ?>
