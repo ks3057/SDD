@@ -54,6 +54,11 @@ $msg="";
               <a href="ICE/db.php">Prepared Statements and Bound parameters</a>
             </td>
           </tr>
+          <tr>
+            <td>
+              <a href="ICE/pdo/people.php">PDO DB</a>
+            </td>
+          </tr>
         </table>
       <ul>Projects
         <li><a href="#">Project 1</a></li>
