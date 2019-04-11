@@ -25,6 +25,7 @@ $msg="";
         <li><a href="#">Homework 1</a></li>
         <li><a href="03/login.php">Homework 2</a></li>
         <li><a href="04/">Homework 3</a></li>
+        <li><a href="05/">Homework 4</a></li>
       </ul>
       <ul>
         ICEs
@@ -57,6 +58,14 @@ $msg="";
           <tr>
             <td>
               <a href="ICE/pdo/people.php">PDO DB</a>
+            </td>
+            <td>
+              <a href="ICE/json/math_doer.html">JSON</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="ICE/soap/phpSoapClientStarter.php">SOAP</a>
             </td>
           </tr>
         </table>

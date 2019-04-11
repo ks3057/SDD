@@ -1,0 +1,192 @@
+
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`ks3057`.`server_user`, CONSTRAINT `teamUserFK` FOREIGN KEY (`team`) REFERENCES `server_team` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`ks3057`.`server_user`, CONSTRAINT `teamUserFK` FOREIGN KEY (`team`) REFERENCES `server_team` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`ks3057`.`server_user`, CONSTRAINT `teamUserFK` FOREIGN KEY (`team`) REFERENCES `server_team` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`ks3057`.`server_user`, CONSTRAINT `teamUserFK` FOREIGN KEY (`team`) REFERENCES `server_team` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ks3057`.`server_team`, CONSTRAINT `slsFK` FOREIGN KEY (`sport`, `league`, `season`) REFERENCES `server_slseason` (`sport`, `league`, `season`) ON DELETE CASCADE)
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ks3057`.`server_team`, CONSTRAINT `slsFK` FOREIGN KEY (`sport`, `league`, `season`) REFERENCES `server_slseason` (`sport`, `league`, `season`) ON DELETE CASCADE)
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ks3057`.`server_team`, CONSTRAINT `slsFK` FOREIGN KEY (`sport`, `league`, `season`) REFERENCES `server_slseason` (`sport`, `league`, `season`) ON DELETE CASCADE)
+SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`ks3057`.`server_playerpos`, CONSTRAINT `posPlayerFK` FOREIGN KEY (`player`) REFERENCES `server_player` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) Mar,22,2019 09:59:57 PM
+login
+
+
+jill0908 Mar,22,2019 10:01:30 PM
+login
+
+
+jill0908 Mar,22,2019 10:03:55 PM
+login
+jill0908 Mar,22,2019 10:05:19 PM
+login
+jill0908 Mar,22,2019 10:05:30 PM
+logout
+jill0908 Mar,22,2019 10:11:49 PM
+login
+jill0908 Mar,23,2019 12:39:07 AM
+logout
+natasha Mar,23,2019 12:40:08 AM
+login
+natasha Mar,23,2019 12:45:35 AM
+logout
+jill0908 Mar,23,2019 12:45:44 AM
+login
+jill0908 Mar,23,2019 02:20:03 AM
+logout
+williamg Mar,23,2019 02:20:47 AM
+login
+williamg Mar,23,2019 04:01:14 AM
+logout
+natasha Mar,23,2019 04:01:22 AM
+login
+natasha Mar,23,2019 04:19:50 AM
+logout
+williamg Mar,23,2019 04:19:59 AM
+login
+williamg Mar,23,2019 04:21:01 AM
+logout
+jill0908 Mar,23,2019 04:21:45 AM
+loginjill0908 Mar,23,2019 04:26:19 AM
+SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+
+jill0908 Mar,23,2019 04:40:16 AM
+logout
+natasha Mar,23,2019 04:40:26 AM
+login
+natasha Mar,23,2019 04:55:10 AM
+logout
+katebeck Mar,23,2019 04:55:37 AM
+login
+katebeck Mar,23,2019 05:24:25 AM
+logout
+williamg Mar,23,2019 05:31:40 AM
+login
+williamg Mar,23,2019 05:31:46 AM
+logout
+williamg Mar,23,2019 06:00:19 AM
+login
+williamg Mar,23,2019 06:27:32 AM
+logout
+williamg Mar,23,2019 06:42:13 AM
+login
+williamg Mar,23,2019 06:53:33 AM
+logout
+williamg Mar,23,2019 07:07:36 AM
+login
+williamg Mar,23,2019 07:24:56 AM
+logout
+ Mar,23,2019 07:25:04 AM
+logout
+williamg Mar,23,2019 08:15:27 AM
+login
+williamg Mar,23,2019 08:16:29 AM
+logout
+jill0908 Mar,23,2019 03:25:39 PM
+login
+jill0908 Mar,23,2019 03:42:31 PM
+logout
+jill0908 Mar,23,2019 03:42:59 PM
+login
+jill0908 Mar,23,2019 04:25:35 PM
+logout
+williamg Mar,23,2019 04:25:54 PM
+login
+williamg Mar,23,2019 04:26:58 PM
+logout
+jill0908 Mar,23,2019 04:27:10 PM
+login
+jill0908 Mar,23,2019 04:33:00 PM
+logout
+natasha Mar,23,2019 04:33:13 PM
+login
+natasha Mar,23,2019 04:33:27 PM
+logout
+kirtana Mar,23,2019 04:37:03 PM
+logout
+jill0908 Mar,23,2019 04:37:19 PM
+login
+jill0908 Mar,23,2019 04:52:36 PM
+logout
+natasha Mar,23,2019 04:52:48 PM
+login
+natasha Mar,23,2019 05:45:00 PM
+logout
+williamg Mar,23,2019 05:45:21 PM
+login
+williamg Mar,23,2019 06:08:36 PM
+logout
+jill0908 Mar,23,2019 06:08:48 PM
+login
+jill0908 Mar,23,2019 06:16:15 PM
+logout
+turja119 Mar,23,2019 06:16:55 PM
+login
+turja119 Mar,23,2019 07:57:31 PM
+logout
+jill0908 Mar,23,2019 07:57:57 PM
+login
+jill0908 Mar,23,2019 09:53:22 PM
+logout
+williamg Mar,23,2019 09:53:51 PM
+login
+williamg Mar,23,2019 10:04:54 PM
+logout
+williamg Mar,23,2019 10:06:10 PM
+login
+williamg Mar,23,2019 10:30:36 PM
+logout
+natasha Mar,23,2019 10:30:57 PM
+login
+natasha Mar,23,2019 10:33:39 PM
+logout
+gargi14 Mar,23,2019 10:34:49 PM
+logout
+jill0908 Mar,23,2019 10:35:57 PM
+login
+jill0908 Mar,23,2019 11:17:24 PM
+logout
+jill0908 Mar,23,2019 11:23:39 PM
+login
+jill0908 Mar,23,2019 11:32:35 PM
+logout
+kirtana Mar,23,2019 11:33:06 PM
+logout
+julia123 Mar,23,2019 11:34:58 PM
+login
+julia123 Mar,23,2019 11:35:08 PM
+logout
+mordor1234 Mar,24,2019 01:16:30 PM
+login
+mordor1234 Mar,24,2019 01:16:46 PM
+logout
+gargi14 Mar,24,2019 01:18:48 PM
+logout
+tommoody Mar,24,2019 01:19:12 PM
+login
+tommoody Mar,24,2019 01:24:14 PM
+logout
+noahcentino Mar,24,2019 01:24:24 PM
+login
+noahcentino Mar,24,2019 01:25:05 PM
+logout
+asiem09 Mar,24,2019 01:25:16 PM
+login
+williamg Mar,24,2019 08:26:15 PM
+login
+williamg Mar,24,2019 08:26:24 PM
+logout
+kirtana Mar,24,2019 08:26:51 PM
+logout
+natasha Mar,24,2019 08:27:04 PM
+login
+natasha Mar,24,2019 08:27:14 PM
+logout
+ Mar,25,2019 09:38:30 PM
+logout
+julia123 Mar,25,2019 09:38:43 PM
+login
+julia123 Mar,25,2019 10:06:11 PM
+logout
+julia123 Mar,25,2019 10:09:58 PM
+login
+julia123 Mar,25,2019 10:13:17 PM
+logout

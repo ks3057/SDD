@@ -1,0 +1,58 @@
+<?php
+    class AreaService
+    {
+        /**
+         * Say "hello"
+         * @return string $hello
+         */
+        public function helloWorld()
+        {
+            return "Hello World";
+        }
+
+        /**
+          * Calculate the area of a rectangle
+          *
+          * @param double $width
+          * @param double $height
+          * @return double $area
+        */
+        public function calcRectangle($width, $height)
+        {
+            return $width *$height;
+        }
+
+        /**
+          * Calculate the area of a cirlce
+          *
+          * @param double $radius
+          * @return double $area
+        */
+        public function calcCircle($radius)
+        {
+            return 3.14*$radius*$radius;
+        }
+
+        /**
+          * @param string $name
+          * @param int $age
+          * @return string $nameWithAge
+        */
+        public function getNameWithAge($name, $age)
+        {
+            return "Your name is: $name and you are $age years old";
+        }
+
+        /**
+          * @param int $max
+          * @return string[] $count
+        */
+        public function countTo($max)
+        {
+            $array = array();
+            for ($i=0; $i < $max; $i++) {
+                $array[] = "Number: ".($i+1);
+            }
+            return $array;
+        }
+    }

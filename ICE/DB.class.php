@@ -33,26 +33,6 @@ class DB
         }
     }
 
-
-    public function insert_person($last, $first, $nick)
-    {
-        //for DB to recognise strings, put variables in quotes
-        $query = "INSERT INTO people (LastName, FirstName, NickName) VALUES(?, ?, ?)";
-        if ($stmt = $this->mysqli->prepare($query)) {
-            //first param indicates data types, one char per variable
-            $stmt->bind_param("sss", $last, $first, $nick);
-            $stmt->execute();
-
-            $stmt->store_result();
-            $num_rows = $stmt->affected_rows;
-
-            $insert_id = $stmt->insert_id;
-
-            return $insert_id;
-        }
-        // Values ('$last', '$first', ''$nick')";
-    }
-
     public function get_people()
     {
         $people = [];
@@ -80,5 +60,25 @@ class DB
 
             return $people;
         }
+    }
+
+
+    public function insert_person($last, $first, $nick)
+    {
+        //for DB to recognise strings, put variables in quotes
+        $query = "INSERT INTO people (LastName, FirstName, NickName) VALUES(?, ?, ?)";
+        if ($stmt = $this->mysqli->prepare($query)) {
+            //first param indicates data types, one char per variable
+            $stmt->bind_param("sss", $last, $first, $nick);
+            $stmt->execute();
+
+            $stmt->store_result();
+            $num_rows = $stmt->affected_rows;
+
+            $insert_id = $stmt->insert_id;
+
+            return $insert_id;
+        }
+        // Values ('$last', '$first', ''$nick')";
     }
 }
