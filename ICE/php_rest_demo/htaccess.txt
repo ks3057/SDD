@@ -1,8 +1,8 @@
-RewriteEngine on 
-RewriteBase /~dmgics/756/rest/productsService
-RewriteCond %{REQUEST_FILENAME} !-f 
-RewriteCond %{REQUEST_FILENAME} !-d 
-RewriteRule ^(.*)$ MyService.php?request=$1 [L,QSA,NC] 
+RewriteEngine on
+RewriteBase /~ks3057/756/ICE/php_rest_demo
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ MyService.php?request=$1 [L,QSA,NC]
 # L=last; don't process any other rewrite rules if there's a match
 # NC=nocase; makes the match case insensitive
 # QSA=qsappend; append any query string instead of discarding it
