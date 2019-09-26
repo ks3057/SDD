@@ -19,7 +19,7 @@ if (isset($_SESSION["redirect"])) {
     global $msg;
     if (isset($_POST["submit"])) {
         if (isset($_POST["g-recaptcha-response"]) and $_POST["g-recaptcha-response"]) {
-            $secret = "6Lfyf5kUAAAAAEBn6jTWW48mjBi9qTNwX9skq8T8";
+
             $ip = $_SERVER['REMOTE_ADDR'];
             $captcha = $_POST["g-recaptcha-response"];
             $rsp = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=$captcha&remoteip=$ip");
