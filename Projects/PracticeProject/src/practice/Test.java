@@ -1,13 +1,16 @@
-package Timecard;
+package practice;
 
 public class Test {
 
     public static void main(String[] args) {
-        EmployeeService es = new EmployeeService();
+        PractiseService ps = new PractiseService();
+        System.out.println(ps.getMattress("ks3057"));
+
+        System.out.println(ps.deleteMattress("ks3057", 1313));
 
 
 //
-        System.out.println(es.getAllDepartment("ks3057"));
+//        System.out.println(es.getAllDepartment("ks3057"));
 //
 //        System.out.println(es.updateDepartment("ks3057", "scranton",
 //                698, "d22", "Music"));

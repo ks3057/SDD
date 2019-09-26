@@ -79,4 +79,18 @@ for (let i = 6; i < 9; i++) {
   workerProcess.on("close", (code) => {
     console.log(`C. child process exited with exit code ${code}`);
   });
+
+  workerProcess.send({
+    test: "hi world"
+  });
+
+  workerProcess.on("message", (msg) => {
+    console.log("C. parent received message:", msg);
+  });
+
+  //kill after 4 secs
+  setTimeout(() => {
+    console.log(`C. killing ${i}`);
+    workerProcess.kill();
+  }, 4000);
 }
