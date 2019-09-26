@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f7d0a16-6834-417a-bd8e-a03007622535" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../10/src/SoapHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../10/src/SoapPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticeProject/src/practice/PractiseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ICE/multiProcessNode/master.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ICE/multiProcessNode/master.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ICE/multiProcessNode/support.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ICE/multiProcessNode/support.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Project2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project2/Timecard/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project2/Timecard/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Timecard/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Timecard/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project3" beforeDir="false" afterPath="$PROJECT_DIR$/../Project3" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
